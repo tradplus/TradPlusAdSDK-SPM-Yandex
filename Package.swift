@@ -1,11 +1,11 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 
 import PackageDescription
 
 let package = Package(
     name: "TradPlusYandexAdapter",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v15),
     ],
     products: [
         .library(
@@ -16,11 +16,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.15.0")
+            .exact("15.16.0")
         ),
         .package(
             url: "https://github.com/yandexmobile/yandex-ads-sdk-ios",
-            .exact("8.4.0")
+            .exact("8.5.0")
         ),
     ],
     targets: [
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPYandexAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Yandex/releases/download/15.15.0/TPYandexAdapter-15.15.0.xcframework.zip",
-            checksum: "8b0d9e5ac80d5e8b6e6a7ec1ac3aeb6ebccf744fb01d66b088b14a2899b776ed"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Yandex/releases/download/15.16.0/TPYandexAdapter-15.16.0.xcframework.zip",
+            checksum: "e3c9f599e489f42972f986ec83e7f32d3501ea3e361f1b71dd1efa7a43c2675b"
         ),
     ]
 )
