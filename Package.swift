@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.16.0")
+            .exact("15.17.0")
         ),
         .package(
             url: "https://github.com/yandexmobile/yandex-ads-sdk-ios",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPYandexAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Yandex/releases/download/15.16.0/TPYandexAdapter-15.16.0.xcframework.zip",
-            checksum: "e3c9f599e489f42972f986ec83e7f32d3501ea3e361f1b71dd1efa7a43c2675b"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Yandex/releases/download/15.17.0/TPYandexAdapter-15.17.0.xcframework.zip",
+            checksum: "71a733792eb1b95497378198c9757ad23d0e089c7c8d033c64b77c761a08acb5"
         ),
     ]
 )
